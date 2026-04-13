@@ -22,13 +22,21 @@ header {
     margin-right:12px
 }
 
+.boton_seccion_central {
+    margin:6px;
+}
+
+.boton_seccion_derecha {
+    margin:6px;
+}
 .boton_header {
     display:flex;
-    width: 50px;
-    height:50px;
-    padding:30px;
+    padding-top:15px;
+    padding-bottom: 15px;
+    padding-left:15px;
+    padding-right:15px;
     justify-content: center;
     align-items: center;
-
+    border-radius: 30px;
 }
 
