@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bio Bío Descubre: Conectamos hospitalidad, emprendimiento y sustentabilidad</title>
-    <link class="stylesheets" href="css/stylesheets.css">
+    <link class="stylesheets" href="css/stylesheets.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -14,31 +14,37 @@
         </div>
 
         <div class="seccion_central">
-            <button>Descubrir</button>
-            <button>Escribir opinión</button>
-            <button>Más</button>
+            <!--Múltiples clases dentro de un elemento-->
+            <!--https://stackoverflow.com/questions/31513341/multiple-classes-how-do-i-target-just-one-button-->
+            <button class="boton_header boton_seccion_central boton_descubrir">Descubrir</button>
+            <button class="boton_header boton_seccion_central boton_escribir_opinion">Escribir opinión</button>
+            <button class="boton_header boton_seccion_central boton_mas">Más</button>
         </div>
 
         <div class="seccion_derecha">
-            <button class="boton_moneda">CLP</button>
-            <button class="boton_inicio_sesion">Iniciar sesión</button>
+            <button class="boton_header boton_seccion_derecha boton_moneda">CLP</button>
+            <button class="boton_header boton_seccion_derecha boton_inicio_sesion">Iniciar sesión</button>
         </div>
     </header>
 
     <main>
         <h1 class="main_titulo">Adonde irás?</h1>
         <section class="main_busqueda_personalizada">
+            <!--Se usa section pues es un contenido relacionado-->
             <p>Buscar todo</p>
             <p>Hoteles</p>
             <p>Cosas que hacer</p>
             <p>Restaurantes</p>
         </section>
         <section class="seccion_busqueda">
+            <!--Botón dentro de la barra de búsqueda-->
             <!--https://stackoverflow.com/questions/15314407/how-to-add-button-inside-an-input-->
             <img class="icono_busqueda_lupa" src="assets/indefinido">
             <input class="barra_busqueda" type="search" placeholder="Buscar un destino...">
         </section>
         <article class="seccion_reserva" style="background-color: green;">
+            <!--Se usa article pues es un contenido relacionado entre sí que puede existir y tiene sentido por si solo -->
+            <!--https://developer.mozilla.org/es/docs/Web/HTML/Reference/Elements/article-->>
             <div>
                 <!--Foto y boton con el perfil de instagram en la esquina-->
 

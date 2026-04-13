@@ -1,0 +1,34 @@
+/*No sabía como comentar en CSS: https://www.w3schools.com/css/css_comments.asp*/
+
+header {
+    /*Cambiar orientación del header de columna a fila*/
+    /*https://developer.mozilla.org/es/docs/Web/CSS/Reference/Properties/flex-direction*/
+    display:flex;
+    flex-direction: row;
+    /*Enderezar los botones con respecto al nombre de la empresa*/
+    justify-content: space-between;
+    align-items: center;
+}
+
+.seccion_izquierda {
+    display:flex;
+    margin-left: 12px;
+}
+.seccion_central {
+    display:flex;
+}
+.seccion_derecha {
+    display:flex;
+    margin-right:12px
+}
+
+.boton_header {
+    display:flex;
+    width: 50px;
+    height:50px;
+    padding:30px;
+    justify-content: center;
+    align-items: center;
+
+}
+
