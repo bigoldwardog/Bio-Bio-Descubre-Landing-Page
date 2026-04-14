@@ -338,6 +338,30 @@ header {
 .imagen_inspiracion {
     width:120%;
 }
+
+.parrafo_inspiracion {
+    font-weight: lighter;
+    color:rgb(1, 66, 1);
+
+}
+
+.footer_superior_izquierda {
+    display: flex;
+    flex-direction: row;
+    text-decoration: underline;
+    color: rgb(1, 66, 1);
+}
+
+.container_footer_acerca_de {
+    margin:10px;
+}
+.container_footer_explorar {
+    margin: 10px;
+}
+
+.container_footer_negocios {
+    margin: 10px;
+}
 footer {
     background-color: rgb(233, 233, 233);
 }
