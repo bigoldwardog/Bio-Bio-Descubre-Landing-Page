@@ -105,7 +105,7 @@ header {
     color: rgb(1, 66, 1)
 }
 .main_busqueda_personalizada {
-    /*Para dejar los elementos de forma horizontal: flex*/
+    /*Para dejar los elementos de forma horizontal: flex y flex-direction*/
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -302,4 +302,42 @@ header {
     width:150px;
     border-width: 1px;
     border-color: rgb(1, 66, 1);
+}
+
+.boton_destino {
+    background-color: rgb(233, 233, 233);
+    font-size: 16px;
+    font-weight: lighter;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left:12px;
+    padding-right:12px;
+    border-radius: 5px;
+    margin-left:8px;
+    margin-top:8px;
+    border:none;
+}
+.carta_descripcion {
+    color:rgb(1, 66, 1);
+
+}
+
+.destino_nombre {
+    margin-top:8px;
+    margin-bottom:8px;
+}
+.destino_resenas {
+    color:gray;
+    margin:0px;
+}
+
+.destino_precio {
+    margin: 0px;
+}
+
+.imagen_inspiracion {
+    width:120%;
+}
+footer {
+    background-color: rgb(233, 233, 233);
 }
