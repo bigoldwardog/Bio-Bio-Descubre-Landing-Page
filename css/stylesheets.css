@@ -106,5 +106,44 @@ header {
     text-decoration: underline;
 }
 
+.seccion_busqueda {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:350px;
+    margin-right: 350px;
+}
+
+.barra_busqueda {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(243, 242, 242);
+    flex-grow: 2;
+    width:690px;
+    height:48px;
+    margin-top:12px;
+    margin-bottom:12px;
+    border-radius: 48px;
+    border:none;
+    /*Sombra en la barra de búsqueda, no recordaba muy bien como hacerlo así que lo busqué*/
+    /*https://generatepress.com/forums/topic/enable-box-shadow-on-search-bar/*/
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, .4);
+}
+
+.boton_buscar {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size:large;
+    color:rgb(1, 66, 1);
+    padding-top:15px;
+    padding-bottom: 15px;
+    padding-left:15px;
+    padding-right:15px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color: rgb(2, 202, 69);
+    border-width: 1;
+    border-color:rgb(1, 66, 1)
+}
 
 
