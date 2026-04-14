@@ -143,6 +143,7 @@ header {
     height:48px;
     margin-top:12px;
     margin-bottom:12px;
+    padding-left:20px;
     border-radius: 48px;
     border:none;
     /*Sombra en la barra de búsqueda, no recordaba muy bien como hacerlo así que lo busqué*/
