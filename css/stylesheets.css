@@ -219,8 +219,7 @@ header {
 }
 
 .seccion_recomendacion_categoria {
-    margin-left: 60px;
-    margin-right: 60px;
+    margin: 60px;
 }
 
 .titulo_seccion_recomendacion_categoria {
@@ -242,9 +241,14 @@ header {
     position:relative;
     width:300px;
 }
+
+.carta_imagen:hover {
+    opacity: 70%;
+    transition-duration: 0.3s;
+}
 .imagen_seccion_recomendacion_categoria {
     /*Sugerencia de IA, usar width 100%*/
-    width:95%;
+    width:96%;
     height: 300px;
     border-radius: 5px;
 }
@@ -258,4 +262,14 @@ header {
     font-weight: bold;
     font-size:24px;
 
+}
+
+.seccion_articulo {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(233, 233, 233);
+    margin-top:40px;
+    margin-bottom:40px;
+    border-radius: 5px;
 }
