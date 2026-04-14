@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bio Bío Descubre: Conectamos hospitalidad, emprendimiento y sustentabilidad</title>
+    <title>BioBío Descubre: Conectamos hospitalidad, emprendimiento y sustentabilidad</title>
     <link class="stylesheets" href="css/stylesheets.css" rel="stylesheet">
     <!--No entiendo muy bien como usar la fuente 'Futura Bold' que usa tripadvisor, así que uso Roboto desde GoogleFonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,8 +13,8 @@
 <body>
     <header>
         <div class="seccion_izquierda">
-        <img class="logo" href="assets/indefinido">
-        <h1>Bio Bío Descubre</h1>
+        <img class="logo" src="assets/logo.jpg">
+        <h1 class="titulo_empresa">BioBío<br>Descubre</h1>
         </div>
 
         <div class="seccion_central">
@@ -43,21 +43,21 @@
         <section class="seccion_busqueda">
             <!--Botón dentro de la barra de búsqueda-->
             <!--https://stackoverflow.com/questions/15314407/how-to-add-button-inside-an-input-->
-            <img class="icono_busqueda_lupa" src="assets/indefinido">
+            <img class="icono_busqueda_lupa" src="assets/busqueda.jpg">
             <input class="barra_busqueda" type="search" placeholder="Emprendedores locales, guías turísticos y alojamientos ecológicos...">
             <button class="boton_buscar">Buscar</button>
         </section>
-        <article class="seccion_reserva" style="background-color: green;">
+        <article class="seccion_reserva">
             <!--Se usa article pues es un contenido relacionado entre sí que puede existir y tiene sentido por si solo -->
-            <!--https://developer.mozilla.org/es/docs/Web/HTML/Reference/Elements/article-->>
-            <div>
+            <!--https://developer.mozilla.org/es/docs/Web/HTML/Reference/Elements/article-->
+            <div class="seccion_reserva_izquierda">
                 <!--Foto y boton con el perfil de instagram en la esquina-->
-
+                <img class="imagen_seccion_reserva_izquierda" src="images/stock_biobio.jpg">
             </div>
-            <div>
+            <div class="seccion_reserva_derecha">
             <h1>Encuentra cosas que hacer para todo lo que te gusta</h1>
-            <p>Explora más de 4000 experiencias y reserva con nosotros</p>
-            <button>Reserva ahora</button>
+            <p class="parrafo_seccion_reserva_derecha">Explora más de 4000 experiencias y reserva con nosotros</p>
+            <button class="boton_header seccion_reserva_derecha_boton_reserva">Reservar ahora</button>
             </div>
             
         </article>
