@@ -217,3 +217,45 @@ header {
     background-color: rgb(0, 211, 70);
     transition-duration: 0.1s;
 }
+
+.seccion_recomendacion_categoria {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.titulo_seccion_recomendacion_categoria {
+    color: rgb(1, 66, 1);
+}
+
+.subtitulo_seccion_recomendacion_categoria {
+    font-weight: lighter;
+}
+
+.container_imagenes_seccion_recomendacion_categoria {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.carta_imagen {
+    /*Sugerencia de IA para meter texto dentro de las imágenes*/
+    position:relative;
+    width:300px;
+}
+.imagen_seccion_recomendacion_categoria {
+    /*Sugerencia de IA, usar width 100%*/
+    width:95%;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.texto_imagen_seccion_recomendacion_categoria {
+    /*Sugerencia de IA para meter texto dentro de las imágenes, no recordaba como usar position*/
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    color:white;
+    font-weight: bold;
+    font-size:24px;
+
+}
