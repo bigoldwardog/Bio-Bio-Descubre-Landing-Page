@@ -272,4 +272,34 @@ header {
     margin-top:40px;
     margin-bottom:40px;
     border-radius: 5px;
+    align-items: center;
+}
+
+.seccion_articulo_izquierda {
+    padding:20px;
+}
+.imagen_seccion_articulo_izquierda {
+    /*Rotar una imágen en CSS, recuperado de*/
+    /*https://www.w3schools.com/cssref/css3_pr_transform.php*/
+
+    max-width: 160px;
+    height:auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius:5px;
+    transform:rotate(-4deg);
+}
+.seccion_articulo_central {
+    margin-top:30px;
+    color:rgb(1, 66, 1);
+}
+.seccion_articulo_derecha {
+    margin-top:60px;
+    margin-right:60px;
+}
+.boton_leer_ahora {
+    font-size:16px;
+    width:150px;
+    border-width: 1px;
+    border-color: rgb(1, 66, 1);
 }
